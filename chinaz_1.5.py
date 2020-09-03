@@ -11,7 +11,7 @@ headers = {
 set = set()
 #开启连接模块
 def mysql_Connect():
-    db = pymysql.connect(host='192.168.102.227', user='pyscript', password='password', port=3306, db='url_all')
+    db = pymysql.connect(host='IP', user='user', password='password', port=3306, db='url_all')
     return db
 
 #mysql插入数据模块
